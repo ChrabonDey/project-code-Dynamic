@@ -1,0 +1,261 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    
+    min-width:100%;
+   min-height: 109vh;
+   background: linear-gradient(400deg,#02385f 20%,#008592 50%,#00a582,#2bca59 ,#7ADF2C);
+  
+}
+
+
+.nav{
+    
+    padding: 20px;
+    width:1400px;
+    height:140px;
+    
+    margin:auto;
+    
+
+
+}
+.icon{
+   /* border: 1px solid yellow; */
+    
+    width: 500px;
+    height: 100px;
+    float:left;
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.logo{
+    /* border: 1px solid yellow; */
+    padding-left:20px;
+    color: azure;
+    
+    font-size: x-large;
+    padding-top: 30px;
+    
+   
+}
+.home{
+    
+    width:400px;
+    height: 90px;
+    float: right;
+}
+ul{
+   
+    float:right;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+ul li a{
+    text-decoration: none;
+    font-family:monospace;
+    color: azure;
+    text-decoration: none;
+    transition:width 0.4s ease-in-out;
+
+
+}
+ul li a:hover::before{
+    
+    left: 0;
+
+}
+ul li a:hover{
+    text-decoration: underline;
+    
+
+}
+ul li button{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: aliceblue;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.surname{
+    color: rgb(255, 196, 0);
+}
+.png{
+    /* border:1px solid red; */
+    float: left;
+    margin: 0;
+    padding: 0;
+    
+}
+ul li button:hover{
+    background-color: rgb(0, 157, 255);
+    color:white;
+}
+
+#about{
+    /* border:1px solid red; */
+    width:900px;
+    height: 200px;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 2.7%;
+    transition: 0.4s ease-in-out;
+}
+#about h1{
+    /* border: 1px solid yellow; */
+    width: 900px;
+    height: 100px;
+    margin-left: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 65px;
+    color: aliceblue;
+    
+}
+.about{
+    /* border: 1px solid white; */
+    width:700px;
+    margin-top: 20px;
+    margin-left: 90px;
+    font-size: 20px;
+   letter-spacing: 1.4px;
+   font-weight: 500;
+   color: aliceblue;
+   line-break: auto;
+
+}
+.box{
+ border-top:3px solid linear-gradient(400deg,#02385f 20%,#008592 50%,#00a582,#2bca59 ,#7ADF2C); 
+    height:700px;
+    display: flex;
+    margin-top:50px;
+    padding-left: 200px;
+    border-radius:50%
+    
+}
+.box1{
+    
+    width:350px;
+    height:260px;
+    margin-left: 40px;
+    color: aliceblue;
+    font-size: large;
+    border-radius: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background: linear-gradient(45deg,rgb(5, 5, 136),rgb(5, 180, 196));
+    transition: 0.2s ease-in-out;
+    
+
+}
+.box2{
+    
+    width:350px;
+    height:260px;
+    margin-left: 40px;
+    color: aliceblue;
+    font-size: large;
+    border-radius: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background: linear-gradient(40deg,rgb(5, 5, 136),rgb(6, 202, 220));
+    transition: 0.2s ease-out;
+   
+
+}
+.box3{
+    
+    width:350px;
+    height:260px;
+    margin-left: 40px;
+    color: aliceblue;
+    font-size: large;
+    border-radius: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background: linear-gradient(40deg,rgb(6, 6, 167),rgb(6, 217, 236));
+    transition: 0.2s ease-out;
+
+}
+.box1 img{
+    width:60px;
+    height: 60px;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+.box2 img{
+    width:40px;
+    height: 60px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.box3 img{
+    width:45px;
+    height: 60px;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+.box1 h1{
+    margin-left: 40px;
+    letter-spacing: 1.7px;
+    font-size: 27px;
+}
+.box2 h1{
+    margin-left: 80px;
+    letter-spacing: 1.7px;
+    font-size: 27px;
+}
+.box3 h1{
+    margin-left: 40px;
+    letter-spacing: 1.7px;
+    font-size: 27px;
+}
+.box1 p{
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+.box2 p{
+    text-align: center;
+    letter-spacing: 0.5px;
+
+}
+.box3 p{
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+.box1:hover{
+    box-shadow: 2px 2px 9px rgb(211, 211, 216);
+}
+.box2:hover{
+    box-shadow: 2px 2px 9px rgb(211, 211, 216);
+}
+.box3:hover{
+    box-shadow: 2px 2px 9px rgb(211, 211, 216);
+}
+#about:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.wave {
+    
+    margin-top: -5px; /* Adjust to overlap the top line */
+}
+.wave svg {
+    display: block;
+    width: 100%;
+    
+    transform: rotate(180deg);
+}
